@@ -43,6 +43,9 @@ font-family: 'Source Sans Pro', sans-serif;
     border-radius: 4px;
 
 }
+/* **************************
+Donate Today Css
+******************************/
 .donate-today{
     width: 100%;
     padding-top: 60px;
@@ -62,4 +65,71 @@ font-family: 'Source Sans Pro', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     font-weight: 500;
+}
+.amount-tag{
+    padding:40px 0;
+    display: flex;
+    justify-content:center;    
+}
+#price, #price2, #price3, #price4 {
+    width: 130px;
+    height: 130px;
+    border: 3px solid #F6FBF4;
+    margin-right: 30px;
+    text-align: center;
+    line-height: 130px;
+    background-color: #F6FBF4;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+#price1{
+    width: 130px;
+    height: 130px;
+    border: 3px solid #EB4747;
+    margin-right: 30px;
+    text-align: center;
+    line-height: 130px;
+    background-color: #FFDEDE;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+
+}
+.other-taka h6{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    color: rgb(71, 73, 74);
+
+}
+.line{
+    width: 55%;
+    height: 3px;
+    background: #757574;
+    text-align: center;   
+}
+/* *************************
+footer CSS
+****************************/
+.f-tag{
+    width: 100%;
+    background-color: #06283D;
+    height: 15vh;
+    text-align: center;
+    margin-top: 40px;
+}
+.f-tag h3{
+    color: azure;
+    font-family:'Source Sans Pro', sans-serif ;
+    font-size: 28px;
+    padding-top: 30px;
+
+}
+.f-tag p{
+    color: azure;
+    font-family:'Source Sans Pro', sans-serif ;
+    font-size: 18px;
+    padding:8px 0;
+
 }
