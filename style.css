@@ -32,7 +32,7 @@ font-family: 'Source Sans Pro', sans-serif;
     margin: 40px auto;
     font-family: 'Source Sans Pro', sans-serif;
 }
-.donet-link{
+.donet-link, .d-link a{
     text-decoration: none;
     background-color: tomato;
     padding: 14px 40px;
@@ -105,9 +105,32 @@ Donate Today Css
 }
 .line{
     width: 55%;
-    height: 3px;
+    height: 2px;
     background: #757574;
-    text-align: center;   
+    margin-left: 320px;  
+    margin-top: 20px;
+}
+.d-link{
+    text-align: center;
+    margin-top: 60px;
+}
+/* *************************
+Our Donate Plan
+****************************/
+.donate-plan{
+    width: 100%;
+    padding-top: 80px;
+    text-align: center;
+}
+.donate-plan h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+}
+.donate-plan p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
 }
 /* *************************
 footer CSS
