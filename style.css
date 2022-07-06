@@ -133,6 +133,14 @@ Our Donate Plan
     font-weight: 500;
 }
 /* *************************
+dp-box CSS
+****************************/
+.dp-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+/* *************************
 footer CSS
 ****************************/
 .f-tag{
