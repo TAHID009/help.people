@@ -204,6 +204,61 @@ donate-process
     width: 90%;
     height: 60vh;
 }
+/* *************************
+update section CSS
+****************************/
+
+.updates{
+    width: 100%;
+    padding-top: 90px;
+    
+}
+.up_title h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 28px;
+    text-align: center;
+}
+.up_title p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 28px;
+    margin: 0 280px;
+    text-align: center;
+}
+.mail-box{
+    width: 65%;
+    height: 20vh;
+    background-color: #FFDEDE;
+    text-align: center;
+    margin-left: 250px;   
+}
+.mail-box input{
+    margin-top: 50px;
+    padding:15px 120px 15px 18px;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.mail-box input:focus{
+    outline: none;
+}
+.sub-link{
+    text-decoration: none;
+    background-color: tomato;
+    padding:15px 32px 15px 18px;
+    color: aliceblue;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
 
 /* *************************
 footer CSS
