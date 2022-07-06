@@ -32,7 +32,7 @@ font-family: 'Source Sans Pro', sans-serif;
     margin: 40px auto;
     font-family: 'Source Sans Pro', sans-serif;
 }
-.donet-link, .d-link a{
+.donet-link, .d-link a, .contribution-link, .contribution-link2{
     text-decoration: none;
     background-color: tomato;
     padding: 14px 40px;
@@ -163,6 +163,48 @@ dp-box CSS
 .dp-box03{
     background-color:#FFE7BF;
 }
+
+/* ************************
+donate-process
+****************************/
+.donate-process, .donate-process2{
+    width: 100%;
+    padding-top: 90PX;
+    display: flex;
+    justify-content: space-between;
+}
+.donate-p-title, .donate-p-title2{
+    margin-top:40px;
+    width: 50%;
+    padding: 35px;
+}
+.donate-p-title h1, .donate-p-title2 h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    width: 70%;
+    padding-bottom: 18px;
+}
+.donate-p-title p, .donate-p-title2 p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    width: 90%;
+    padding-bottom: 68px;
+    text-align: justify;
+}
+.donate-dp img{
+    width: 80%;
+    height: 60vh;
+}
+.donate-dp2{
+    margin-left: 40px;
+}
+.donate-dp2 img{
+    width: 90%;
+    height: 60vh;
+}
+
 /* *************************
 footer CSS
 ****************************/
